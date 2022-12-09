@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "umiis",
+  "version": "${version}",
+  "name": "Umiis",
+  "description": "Small mod that allows you to use multiplayer inventory in singleplayer too",
+  "authors": [
+    "BisUmTo"
+  ],
+  "contact": {
+    "website": "https://github.com/BisUmTo/umiis",
+    "repo": "https://github.com/BisUmTo/umiis"
+  },
+  "license": "MIT",
+  "icon": "assets/umiis/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.bisumto.umiis.Umiis"
+    ]
+  },
+  "mixins": [
+    "umiis.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.X"
+  }
+}
